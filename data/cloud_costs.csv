@@ -1,0 +1,10 @@
+month,service,cost,usage_type
+2024-01,EC2,3200,compute
+2024-01,S3,800,storage
+2024-01,RDS,1200,database
+2024-02,EC2,3500,compute
+2024-02,S3,950,storage
+2024-02,RDS,1100,database
+2024-03,EC2,2800,compute
+2024-03,S3,700,storage
+2024-03,RDS,1300,database
