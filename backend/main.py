@@ -9,5 +9,8 @@ def home():
 
 @app.get("/ask")
 def ask(question: str):
-    response = rag_answer(question)
-    return {"question": question, "answer": response}
+    try:
+        response = rag_answer(question)
+        return {"question": question, "answer": response}
+    except Exception as e:
+        return {"error": str(e)}
